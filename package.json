@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "faker": "^4.1.0",
+    "immutable": "^4.0.0-rc.12",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "slate": "^10.47.9",
+    "slate-react": "^10.22.22"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,6 +36,6 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@storybook/react": "^5.0.11",
-    "babel-loader": "^8.0.6"
+    "prettier": "1.19.1"
   }
 }
